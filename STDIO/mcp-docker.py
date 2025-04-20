@@ -1,12 +1,6 @@
-import os
-import subprocess
 from mcp.server.fastmcp import FastMCP
 
-mcp = FastMCP(
-    name="Demo",
-    host="0.0.0.0",  # only used for SSE transport
-    port=8050,  # only used for SSE transport (set this to any port)
-)
+mcp = FastMCP("DEMO")
 
 
 @mcp.tool()

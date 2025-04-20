@@ -33,3 +33,4 @@ starlette==0.46.0
 typer==0.15.2
 typing_extensions==4.12.2
 uvicorn==0.34.0
+nest-asyncio==1.6.0

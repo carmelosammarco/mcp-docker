@@ -15,8 +15,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # The --no-cache-dir flag helps keep the image small by not caching installation files.
 # Ensure your requirements.txt lists all dependencies needed by your terminal server.
 
-# Expose port 5000 so that the container can accept incoming connections.
-EXPOSE 5000
+# Expose port 8050 so that the container can accept incoming connections.
+EXPOSE 8050
 # Adjust this port if your server listens on a different port.
 
 # Define the command to run your terminal server.

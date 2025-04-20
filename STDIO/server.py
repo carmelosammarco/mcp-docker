@@ -10,4 +10,4 @@ async def multiply(a: float, b: float) -> float:
 
 
 if __name__ == "__main__":
-    mcp.run(transport="stdio")  # or SSE protocol
+    mcp.run(transport="stdio")

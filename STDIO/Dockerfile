@@ -20,5 +20,5 @@ EXPOSE 8050
 # Adjust this port if your server listens on a different port.
 
 # Define the command to run your terminal server.
-CMD ["python", "mcp-docker.py"]
+CMD ["python", "server.py"]
 # This command starts your custom terminal server when the container launches.

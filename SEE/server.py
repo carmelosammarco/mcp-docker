@@ -3,8 +3,8 @@ from mcp.server.fastmcp import FastMCP
 # Create an MCP server
 mcp = FastMCP(
     name="MCP Server SSE",
-    # host="0.0.0.0",  # only used for SSE transport
-    port=8050,  # only used for SSE transport (set this to any port)
+    # host="0.0.0.0",  # only used for SSE transport in localhost
+    port=8050,  # only used for SSE transport (set this to any port=exposed port in Dockerfile)
 )
 
 
